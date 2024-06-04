@@ -5,7 +5,6 @@ include_once("templates/header.php");
 ?>
     
 <div class="container">
-    <p id="msg"> TESTANDO MENSAGEM</p>
     <?php if(isset($printMsg) && $printMsg != ""): ?>
         <p id="msg"> <?= $printMsg ?></p>
     <?php endif; ?>
