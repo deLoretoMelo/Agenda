@@ -12,7 +12,7 @@
         $id = $_GET['id'];
     }
     //Retorna um contato
-    if(!empty($_GET)){
+    if(!empty($id)){
         $query = "SELECT * FROM contacts WHERE id = :id";
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":id", $id);
