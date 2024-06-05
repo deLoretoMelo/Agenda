@@ -9,7 +9,7 @@ include_once("templates/header.php");
         <h1 id="main-title">Editar Contato</h1>
         <form id="create-form" action="<?= $BASE_URL?>config/process.php" method="POST">
             <input type="hidden" name="type" value="edit">
-            <input type="hidden" name="type" value="<?= $contact['id'] ?>">
+            <input type="hidden" name="id" value="<?= $contact['id'] ?>">
             <div style="margin-bottom: 10px;" class="form-group">
                 <label for="name">Nome do contato:</label>
                 <input type="text" class="form-control" name="name" id="name" placeholder="digite o nome" value="<?= $contact["name"] ?>" required>
