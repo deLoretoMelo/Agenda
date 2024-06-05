@@ -40,14 +40,18 @@
     color: #007BFF;
 }   
 
-.delete-icon{
-    color: #BB2130;
+.delete-form{
+    display: inline-block;
 }
 
 .delete-btn{
     border: none;
     background-color: transparent;
     padding: 0;
+}
+
+.delete-icon{
+    color: #BB2130;
 }
 
 #empty-list-text{
